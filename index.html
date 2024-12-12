@@ -55,6 +55,12 @@
             padding-bottom: 3px;
             margin-bottom: 10px;
         }
+        .payment-icon {
+            width: 2em;
+            height: 2em;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -72,10 +78,22 @@
         <p><strong>Efectivo en caja:</strong> <span id="efectivo_caja"></span></p><br>
 
         <h3>Ingreso por otros métodos de pago</h3>
-        <p><strong>Yape:</strong> <span id="yape"></span></p>
-        <p><strong>Plin:</strong> <span id="plin"></span></p>
-        <p><strong>POS:</strong> <span id="pos"></span></p>
-        <p><strong>Transferencia:</strong> <span id="transf"></span></p>
+        <p>
+            <strong>Yape:</strong> <span id="yape"></span>
+            <img src="yape-icon.png" alt="Yape" class="payment-icon">
+        </p>
+        <p>
+            <strong>Plin:</strong> <span id="plin"></span>
+            <img src="plin-icon.png" alt="Plin" class="payment-icon">
+        </p>
+        <p>
+            <strong>POS:</strong> <span id="pos"></span>
+            <img src="pos-icon.png" alt="POS" class="payment-icon">
+        </p>
+        <p>
+            <strong>Transferencia:</strong> <span id="transf"></span>
+            <img src="transfer-icon.png" alt="Transferencia" class="payment-icon">
+        </p>
 ---------------------------------------------
         <p><strong>Ingreso Total por venta:</strong> <span id="total_ingreso"></span> (incluye efectivo)</p>
 
